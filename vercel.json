@@ -3,3 +3,15 @@
     { "source": "/(.*)", "destination": "/api/index" }
   ]
 }
+ {
+     "builds": [
+         {
+             "src": "api/hello.py",
+             "use": "@vercel/python"
+         }
+     ],
+     "routes": [
+         {
+             "src": "/(.*)",
+             "dest": "api/hello.py"
+         }
