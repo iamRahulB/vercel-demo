@@ -1,1 +1,31 @@
-hi
+{% extends "template.html" %}
+
+{% block content %}
+<div class="container-index">
+	<div class="myname-container">
+		<p class="index-my-name">Rahul Bhole</p>
+	</div>
+		<div class="box1">
+			<p>Discover the power of <span>Python</span> programming with my latest projects</p>
+		</div>
+		
+		<div class="box2">
+			<form class="form" action="/projects" method="POST">
+			<label>Your Name</label>
+			<input class="input-form" name="name" type="text">
+				 <div class="button-wrapper">
+				<input class="btn-submit" type="submit" value="Check Here">
+				 </div>
+				
+			</form>
+			
+		</div>
+	<p class="name">{{name}}</p>
+	
+
+</div>
+
+		<link href="/static/css/index.css" rel="stylesheet" type="text/css" />
+
+{% endblock %}
+

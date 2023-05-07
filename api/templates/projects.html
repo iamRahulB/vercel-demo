@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+
+{% block content %}
+
+<link href="/static/css/projects.css" rel="stylesheet" type="text/css">
+<div class="container-project">
+<div class="name-container">
+
+	<span>Hello! {{name}}</span>
+	
+</div>
+	{% include "projects-grid.html" %}
+</div>
+
+
+{% endblock %}
