@@ -2,7 +2,7 @@ import base64
 import openai
 import os
 
-openai.api_key = os.environ['OPENAI_API']
+openai.api_key = os.getenv['OPENAI_API']
 
 
 def generate_caption(image_url, prompt):
