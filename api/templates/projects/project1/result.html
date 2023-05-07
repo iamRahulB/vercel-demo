@@ -1,0 +1,60 @@
+{% extends "template.html" %}
+{% block content %}
+<style>
+
+.container-main-first-result{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:1.5em;
+	
+		
+	}
+	
+	.first-pro-image-container{
+		width:100%;
+		display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+		margin-top:0.3em;
+		
+	}
+	.first-pro-image-container img{
+		width:60%;
+		border:1px solid white;
+
+		border-radius:1rem;
+			
+	}
+
+
+.container-main-first-result p {
+	text-align:center;
+	color:white;
+	font-size:0.8rem;
+	border-radius:0.3rem;
+	border:1px solid white;
+	padding:0.7em;
+}
+
+
+
+	
+</style>
+<div class="container-main-first-result">
+<div >
+	<p >Please Wait 10 seconds till image loads</p>
+</div>
+<div class="first-pro-image-container">
+
+	<img src="{{name}}">
+
+	<p >Please Wait 10 seconds till image loads</p>
+</div>
+
+</div>
+
+
+{% endblock %}

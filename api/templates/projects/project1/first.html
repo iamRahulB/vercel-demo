@@ -1,0 +1,39 @@
+{% extends "template.html" %}
+
+{% block content %}
+
+
+<!doctype html>
+<html>
+    <head>
+		<link rel="stylesheet" href="/static/css/projects/project1/first.css">
+    </head>
+    <body>
+		<div class="first-container">
+		<div class="heading-container">
+  <h1>Generate Image By entering Text!</h1>
+		</div>
+
+        <div class="container-main-first-project">
+		<div class="container-form-first-project">
+			
+			
+			<form action="/captions" method="POST" enctype="multipart/form-data">
+			<textarea class="prompt-text" name="user_text" placeholder="Enter your query"></textarea>
+           <div class="btn-conatiner-first-proj"> 
+			   <input type="submit" value="See Magic!">
+		   </div>
+        </form>
+			<div class="instruction-container-first">
+			<p style="border:1px solid gray;border-radius:20px;color:white;font-size:20px;padding:10px;margin-top:20px;width:100%;">Try : make angry white cat image,
+			You can ask for any image to make..
+			for eg. white banana image. You can Add your own text</p>
+			</div>
+		</div>
+        </div>
+		</div>
+    </body>
+</html>
+
+
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "template.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="static/css/projects/project2/project2.css" type="text/css">
+
+<div class="main-con-pro2">
+	<div>
+				<div class="cont-note"><p class="note">Note: Please wait at least 20 sec to after you click submit button</p></div>
+
+	<div class="container-pro2">
+		<div class="pro2-form-container">
+			<form class="pro2-form" action="/job" method="POST" enctype="multipart/form-data">
+			<div class="resume-con">	<label type="text">Your name</label>
+			    <input type="input" class="pro2-input" placeholder="Name" name="pro2_name">				</div>
+
+				
+				<label class="pro2-interest"  type="text">Interest </label>
+			    <input type="input" placeholder="interest" name="pro2_interest">
+				<input type="file" name="pro2_file" >
+				<div class="btn-pro2-container">
+				<input type="submit" value="Check">
+				</div>
+			</form>
+
+		
+		</div>
+
+		
+	</div>
+
+          <div class="con-pro2-descptn">
+			
+				<p>In this program, just give your resume along with your interested job. then this will tell you if your resume is ok for that job.</p>
+			
+		</div>
+	</div>
+</div>
+
+{% endblock %}
