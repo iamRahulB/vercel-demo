@@ -1,0 +1,113 @@
+.main-con-pro2{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:90vh;
+}
+.note{
+	text-align:center;
+	width:15rem;
+	margin-top:2em;
+	color:white;
+	border:1px solid white;
+	border-radius:1rem;
+	padding:0.6em;
+}
+
+.cont-note{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.container-pro2{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:1em;
+}
+
+.pro2-form-container{
+
+}
+
+.pro2-form{
+		border:1px solid white;
+	padding:1em;
+	border-radius:1rem;
+}
+
+.pro2-form [type="input"]{
+	margin-bottom:1em;
+	border-radius:0.3rem;
+	padding:0.5em;
+	font-size:0.6rem;
+	
+}
+
+.pro2-form [type="file"]{
+	display:block;
+		margin-bottom:1em;
+	border-radius:0.3rem;
+	padding:0.2em;
+	font-size:0.6rem;
+	margin-top:0.8em;
+
+	
+}
+.btn-pro2-container{    /*    center button and upload btn  */
+	display:flex; 
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+
+.pro2-form [type="submit"]{
+		width:40%;
+	border-radius:0.3rem;
+	padding:0.2em;
+	font-size:0.5rem;
+	margin-top:0.8em;
+	
+
+}
+
+.pro2-form label{
+	color:wheat;
+	
+	
+}
+
+
+
+.pro2-interest{
+	margin-right:1.39em;
+}
+
+.con-pro2-descptn{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+		  text-align: center;
+
+}
+
+
+.con-pro2-descptn div{
+	justify-content:middle;
+}
+
+.con-pro2-descptn p{
+	text-align:center;
+	border:1px solid white;
+	border-radius:1rem;
+	padding:1em;
+		width:15rem;
+	color:white;
+
+}
+

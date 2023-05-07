@@ -1,0 +1,19 @@
+.cont-suggestion-main{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+}
+
+.cont-suggestion{
+		width:90%;
+}
+
+.cont-suggestion p{
+	font-size:1rem;
+	border:1px solid white;
+	padding:1em;
+	border-radius:1rem;
+	color:white;
+	width:100%;
+}

@@ -1,0 +1,90 @@
+.first-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	flex-direction:column;
+	margin-top:1.5em;
+	height:100%;
+		margin-bottom:1.5em;
+
+}
+
+
+.container-main-first-project {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:80%;
+	
+	
+}
+
+.container-form-first-project{
+	width:70%;
+	border-radius:20px;	
+display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;	
+	
+
+}
+
+			.container-form-first-project  input{   /* its button  */
+				width:100%;
+				font-size:20px;
+				margin-top:1em;
+				border-radius:10px;
+				text-align:center;
+				
+			}
+.prompt-text{
+				padding:10%;
+				text-align:center;
+				width:100%;
+				border-radius:20px;
+			}
+
+.container-form-first-project form{
+				border:1px solid white;
+				width:100%;
+				border-radius:20px;
+	padding-bottom:1em;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+	
+			}
+
+
+
+
+.heading-container{
+	
+	width:80%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	margin-top:1em;
+}
+
+.heading-container h1{
+	text-align: center;
+	font-size:1.7rem;
+	border:1px solid white;
+	width:70%;
+	border-radius:1rem;
+	padding:0.5em;
+	color:white;
+
+}
+
+
+@media (max-width: 1390px){
+	.heading-container h1{
+		font-size:100%;
+	}
+}

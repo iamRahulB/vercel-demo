@@ -1,0 +1,19 @@
+.container-project{
+	width:100%;
+	
+}
+
+.container-project span{
+	text-align:left;
+	border:1px solid white;
+color:white;
+  border-radius: 40px 0 40px 0;
+	padding:0.5em;
+	
+}
+.name-container{
+		margin:1.5em;
+
+}
+
+
