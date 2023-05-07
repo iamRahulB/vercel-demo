@@ -3,7 +3,7 @@ import os
 
 def generate_image(prompt,name):
 	# Create image features from the image URL
-	openai.api_key = os.environ['OPENAI_API']
+	openai.api_key = os.getenv['OPENAI_API']
 	
 	
 	response = openai.Image.create(
