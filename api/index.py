@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import os
 import openai
-from image_generator import generate_image
+# from image_generator import generate_image
 from flask import session
 from job_result import JobSuggestionResult
 
