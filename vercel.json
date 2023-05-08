@@ -11,8 +11,5 @@
   },
   "files": [
     "api/**/*.py",
-    "static/**/*",
-    "templates/**/*",
-    "tmp/**/*"
   ]
 }
