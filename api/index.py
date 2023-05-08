@@ -3,7 +3,7 @@ import os
 import openai
 # from image_generator import generate_image
 from flask import session
-from job_result import JobSuggestionResult
+# from job_result import JobSuggestionResult
 
 app = Flask(__name__)
 app.secret_key = 'ihfheiufhiweuhf7efyw8eyf8ye4y4'
