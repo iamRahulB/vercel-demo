@@ -1,18 +1,33 @@
 {
   "builds": [
-    {
-      "src": "api/index.py",
-      "use": "@vercel/python"
-    }
+    { "src": "api/index.py", "use": "@vercel/python" }
   ],
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "api/\\1"
+    { "src": "/(.*)", "dest": "api/\\1" }
+  ],
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "static": {
+    "glob": "*/static//",
+    "dir": "static"
+  },
+  
+  "templates": {
+    "glob": "*/templates//",
+    "dir": "templates"
+  },
+  "functions": {
+    "api/image_generator.py": {
+      "runtime": "@vercel/python"
     },
-    {
-      "src": "/(.*)",
-      "dest": "api/index.py"
+    "api/job_result.py": {
+      "runtime": "@vercel/python"
     }
-  ]
+  },
+  "env": {
+    "VAR1": "value1",
+    "VAR2": "value2"
+  }
 }
